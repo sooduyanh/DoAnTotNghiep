@@ -1,0 +1,7 @@
+I. Lý do chọn hai bài báo tham chiếu
+Dự án của tôi chủ yếu dựa trên hai bài báo gần đây và có tính liên quan cao sau:
+1. Fashion Recommendation Systems: From Single Items to Complete Outfits (2025)
+Đây là bài báo phù hợp nhất với định hướng cốt lõi của đề tài. Bài báo tập trung phân tích sự chuyển dịch từ recommendation đơn lẻ (single item) sang recommendation phối đồ hoàn chỉnh (full outfit coordination / complete the look). Cách tiếp cận triplet learning (Top-Bottom-Shoe) và việc sử dụng Denoising Autoencoder để reconstruct item bị thiếu (shoe) trong dự án của tôi là sự kế thừa và mở rộng trực tiếp từ hướng nghiên cứu này.
+2. A fashion product recommendation based on adaptive VPKNN-net Algorithm (2025)
+Bài báo đề xuất mô hình multimodal deep learning kết hợp đặc trưng hình ảnh (image), văn bản (text) và các thuộc tính sản phẩm để gợi ý outfit. Điều này phù hợp với thiết kế multimodal của tôi khi kết hợp ba loại embedding: VGG features, CLIP embeddings, và Text embeddings (Sentence-Transformers). Tôi đã kế thừa ý tưởng multimodal fusion và cải tiến bằng cách áp dụng RRF (Reciprocal Rank Fusion) cùng ELFMImproved.
+Việc lựa chọn hai bài báo năm 2025 này giúp đề tài của tôi có tính thời sự cao, đồng thời vẫn giữ được nền tảng vững chắc từ các kỹ thuật cổ điển (ELFM và CDAE) để phát triển hybrid model.

@@ -1,0 +1,18 @@
+cd /d "C:\Users\ler64\OneDrive\Máy tính\ĐATN\OutPut_V3\frontend"
+npm run dev
+
+1) Chạy backend FastAPI
+cd /d "c:\Users\ler64\OneDrive\Máy tính\ĐATN\OutPut_V3"
+uvicorn sql.main:app --host 127.0.0.1 --port 8000 --reload
+
+cd /d "c:\Users\ler64\OneDrive\Máy tính\ĐATN\OutPut_V3"
+python -m uvicorn sql.main:app --host 127.0.0.1 --port 8000 --reload
+
+
+2) Test nhanh backend (kiểm tra có chạy đúng không)
+http://127.0.0.1:8000/
+
+3) Test endpoint bị 500 (copy đúng 2 URL này)
+Mở trình duyệt (hoặc trình gọi API) lần lượt:
+http://127.0.0.1:8000/api/products/?category=Tops&page=1&size=20
+http://127.0.0.1:8000/api/products/?category=Bottoms&page=1&size=20

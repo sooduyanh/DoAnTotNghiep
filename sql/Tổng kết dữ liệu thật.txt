@@ -1,0 +1,2 @@
+Tổng kết dữ liệu thật
+FileNội dungSố lượngtriplets.csvtop/bottom/shoe ASIN2,668 bộmeta_clothing.jsonasin, title, price, brand, imUrl, categories, related, salesRank, description~hàng trăm nghìnimage_features.npyVGG features 4096-dim2,202 sản phẩmlatent_image_features.npyCLIP/latent features 512-dim2,202 sản phẩm
